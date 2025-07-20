@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "26950458"))
+API_ID = int(getenv("API_ID", ""))
 
-API_HASH = getenv("API_HASH", "d818b8d530e4a9b209509815ab1b9c7c")
+API_HASH = getenv("API_HASH", "")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "8023030133:AAHzuvmXz34QX8dV5utVo4Sg9lokWvZM13A")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002881142866"))
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "7926944005"))
+OWNER_ID = int(getenv("OWNER_ID", ""))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "gojo_x_jinwoobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 21474836480))
 
 
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQGbOzoAhG-dxyPz6hooGFhrmC2U_T5LNH-DV7SiFaHmaXbnDDhqg5Sticnf2Pi1FLktn0lrEeePxyIke64e8KJZThs8Mtc7Yx0eWDjRNdjkOeviRAVbYNP3dt6unOGtmzrvwB8gbV2vJevctK1U5rhj95ZiTAMtbCRAY0vWLt3mAyIdrPuXAjbclhJ72AWwkwx9W1Tbg2yk06xmzMSdqs43XX6Jnxf35GABkVPdx41nwAwMJemqjtIpnUnTH3TDnQu0RTbE2Uwvmlxp6C1LRLYESRsRS9Pkdrjeo1e3MfQP6Pto3-4pfkywhFlbVsnEbcDgo11k0Cy1ZC2WwqKVJdM8gQhwrwAAAAGsmbxnAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
