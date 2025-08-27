@@ -7,9 +7,9 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "27263782"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "d7b791118bced0eff4ca83f0d979e964")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002748340748"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002673174815"))
 
-OWNER_ID = int(getenv("OWNER_ID", "8250510325"))
+OWNER_ID = int(getenv("OWNER_ID", "1129848570"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "gojo_x_jinwoo_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "HydraxMusic_bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -42,7 +42,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support/112")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+zyocLmf3JvIwOWY9")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -89,7 +89,7 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://files.catbox.moe/4kpaiz.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/4kpaiz.jpg"
+    "PING_IMG_URL", "https://graph.org/file/6d4d2eb63e12f3b72a707-14d93d083b96ca079b.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/4kpaiz.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/4kpaiz.jpg"
