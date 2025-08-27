@@ -37,7 +37,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "https://github.com/itzarjuna1/SpyMusicxgojo")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "https://github.com/Gxinfinity/SpyMusicxInfinity")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
