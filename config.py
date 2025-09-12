@@ -7,9 +7,9 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "27263782"))
+API_ID = int(getenv("API_ID", "29672107"))
 
-API_HASH = getenv("API_HASH", "d7b791118bced0eff4ca83f0d979e964")
+API_HASH = getenv("API_HASH", "b4f0780f6f262cab27b51234a08cb0db")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002673174815"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002881142866"))
 
-OWNER_ID = int(getenv("OWNER_ID", "1129848570"))
+OWNER_ID = int(getenv("OWNER_ID", "7487670897"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "HydraxMusic_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Gojo_X_Jinwoo_bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -86,7 +86,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/4kpaiz.jpg"
+    "START_IMG_URL", "https://graph.org/file/121bc9e109f540a8befac-c19eeddc86e8f53bcf.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/6d4d2eb63e12f3b72a707-14d93d083b96ca079b.jpg"
