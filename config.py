@@ -21,7 +21,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002881142866"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002869205475"))
 
 OWNER_ID = int(getenv("OWNER_ID", "7487670897"))
 
@@ -86,7 +86,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/121bc9e109f540a8befac-c19eeddc86e8f53bcf.jpg"
+    "START_IMG_URL", "https://graph.org/file/7c703f3d157b477bd5879-4463312df2304b779f.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/6d4d2eb63e12f3b72a707-14d93d083b96ca079b.jpg"
